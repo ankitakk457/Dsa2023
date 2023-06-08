@@ -135,9 +135,7 @@ int main() {
   printll(head);
   delete_at_front( head,  tail);
   delete_at_tail( head,  tail);
-  
-
-   printll(head);
+  printll(head);
 
     return 0;
 }
