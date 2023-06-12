@@ -248,3 +248,42 @@ int main() {
    
    return 0;
 }
+/*OUTPUT
+8 10 1 -1 -1 6 4 -1 -1 7 -1 -1 3 -1 14 13 -1 -1 -1
+
+Count nodes : 9
+Sum of nodes : 66
+Preorder is: 
+8 10 1 6 4 7 3 14 13 
+Inorder is: 
+1 10 4 6 7 8 3 13 14 
+Postorder is: 
+1 4 7 6 10 13 14 3 8 
+Enter the data
+5
+false
+
+Height of a tree 4
+Height of tree is 4
+Diameter of tree is 6
+Levelwise : 
+8 
+10 3 
+1 6 14 
+4 7 13 
+8 10 1 -1 -1 6 4 -1 -1 7 -1 -1 3 -1 14 13 -1 -1 -1
+Enter left and right data of 8
+Enter left and right data of 10
+Enter left and right data of 1
+Enter left and right data of 6
+Enter left and right data of 4
+Enter left and right data of 7
+Enter left and right data of 3
+Enter left and right data of 14
+Enter left and right data of 13
+8 
+10 3 
+1 6 14 
+4 7 13 
+Before Mirror image is 1 10 4 6 7 8 3 13 14 
+After Mirror image is 14 13 3 8 7 6 4 10 1 */
